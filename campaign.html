@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IIUM RM1 Campaign</title>
+    <link href="layout.css"
+    rel="stylesheet" type="text/css">
+    
+
+</head>
+
+
+<body>
+    
+
+    <div class="container" id="container">
+        
+        
+        <div class="page mainpage">
+            
+            <div class="part leftpart">
+                <p>IIUM ENDOWMENT FUND</p>
+                <p>Level 3, Rectory</p>
+                <p>International Islamic University Malaysia</p>
+                <p>P.O. Box 10</p>
+                <p>50728 Kuala Lumpur</p>
+                <p>Tel: 03 6196 4268</p>
+                <p>Email: ief@iium.edu.my</p>
+                <p>Website: www.iium.edu.my/ief</p>
+                <p>Facebook: www.facebook.com/ief.official/</p>
+            </div>
+            <div class="part midpart">
+
+                <div class="top_part">
+                <h3> LET'S MAKE A DONATION </h3>
+                </div>
+
+                <div>
+                    <img src="IIUM_Logo_.svg" alt="iium logo"> 
+                </div>
+
+                <div class="bottompart">
+                "let your contributions be PERPETUAL for the pleasure of Allah"
+                </div>
+            </div>
+            <div class="part rightpart">
+                <div>
+                    <img src="Seminar-removebg-preview.png" alt="campaign_logo">
+                </div>
+                <div>
+                    <p>“The example of those who spend their wealth in the way of Allah is like a seed [of grain] which grows seven spikes; in each spike is a hundred grains. And Allah multiplies [His reward] for whom He wills. And Allah is all-Encompassing and Knowing.” </p>
+                    <p>[Al Baqarah:261]</p>
+                </div>
+                
+
+            </div>
+
+        </div>
+        <div class="page formpage">
+            <div>
+            <form action="" method="get">
+                <fieldset>
+                    <legend> RM 1 Campaign Form </legend>
+                    <div class="field">
+                        <p>
+                            <label for="name"> Name : </label>
+                            <input type="text" id="name" name="user_name">
+                        </p>
+                        <p>
+                            <label for="staffNo"> Staff No : </label>
+                            <input type="text" id="staffNo" name="staff_no">
+                        </p>
+                        <p>
+                            <label for="department"> K/C/D/I/O : </label>
+                            <input type="text" id="department" name="staff_dept">
+                        </p>
+                        <p>
+                            <label for="contactNo"> Contact No : </label>
+                            <input type="text" id="contactNo" name="contact_number">
+                        </p>
+                        <p>
+                            <label for="email"> Email Address :</label>
+                            <input type="text" id="email" name="email">
+                        </p>
+                        <p>
+                            <label for="amount"> Amount to be deducted : </label>
+                            <input type="text" id="amount" name="amount">
+                        </p>
+                    </div >
+
+                    <div class="consent">
+                            <div>
+                                <p>The above salary deduction will take effect from :</p>
+                                <div class="dateline">
+                                    <div>
+                                        <label for="iDate"> start</label>
+                                        <input type="date" id="iDate" name="initial_date">
+                                    </div>
+                                    <div>
+                                        <label for="eDate"> End</label>
+                                        <input type="date" id="eDate" name="initial_date">
+                                    </div>
+                                </div>
+                                <div class="kuliyyah">
+                                    
+                                    <label for="kuliyyah"> Kulliyyah : </label>
+                                    <input type="checkbox" onclick="checkCheckBox()" id="kuliyyah" name="staff_kuliyyah">
+                                    <p id="Kulliyyah_option"></p>
+                                </div>
+                                
+                                
+                            </div>
+
+                            
+                    </div>
+                </fieldset>
+                <input type="submit">
+            </form>
+            </div>
+
+            <div class="scroll">
+                <button onclick="up()" id="scroll-btn">UP!</button>
+
+                <script src="function.js"></script>
+            </div>
+            
+        </div>
+
+
+    </div>
+
+    
+    
+</body>
+</html>

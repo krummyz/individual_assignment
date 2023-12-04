@@ -1,0 +1,170 @@
+*,
+* ::before,
+* ::after {
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container{
+    height: 200vh;
+    text-align: center;
+    font-size: 16px;
+    font-size: larger;
+}
+
+.page{
+    height: 100vh;
+    width: 100vw;
+}
+
+.mainpage{
+    background-size: cover;
+    background-image: url(gaza-3829414_960_720.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.part{
+    padding: 16px;
+    width: 20vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.midpart{
+    font-size: 25px;
+    font-style: italic;
+    font-family: "jester", sans-serif;
+    width: 60vw;
+    justify-content: space-between;
+}
+
+.midpart div{
+    margin: 32px;
+}
+
+.midpart img{
+    max-width: 60vw;
+    display: block;
+}
+
+.top_part{
+    justify-content: top;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow:4px 4px 4px rgb(0, 0, 0);
+    color: chocolate;
+}
+
+.bottompart{
+    font-size: 30px;
+    font-family: "trebuchet ms", sans-serif;
+    text-shadow:1px 1px 4px black;
+}
+
+.rightpart {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    font-size: medium;
+    font-family: "comic sans MS", sans-serif;
+    color: rgb(232, 196, 213);
+}
+
+.rightpart img{
+    width: 200px;
+    height: auto;
+    display: grid;
+    grid-column: auto;
+}
+
+.leftpart{
+    padding: 30px;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.formpage{
+    background-image:url(purple_love_symbol_2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "impact", sans-serif;
+    color:rgb(170, 132, 83);
+}
+
+
+.field{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 50px;
+    gap: 16px;
+    
+}
+
+.field p{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.field label{
+    width: 100%;
+    text-align: right;
+    padding-right: 30px;
+}
+
+input[type=text]{
+    width: 60%;
+    background-color:rgb(215, 165, 148);
+}
+
+.consent{
+    color: rgb(224, 201, 201);
+}
+.dateline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.dateline div{
+    margin: 30px;
+}
+
+input[type=date]{
+    background-color: rgb(225, 103, 103);
+}
+
+.scroll{
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    width: 90vw;
+
+}
+
+.scroll button{
+    justify-content: right;
+    align-items: center;
+    font-size: 30px;
+    background-color:rgb(167, 75, 131);
+}
